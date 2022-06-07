@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Imagenes",
+			"path": "../Downloads/Recursos projecte sprint 2-20220525/Imagenes"
+		},
+		{
+			"name": "anex2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "anex2"
+	}
+}
