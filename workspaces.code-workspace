@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Downloads/sprint-2-main/node_modules"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "anex2",
+		"liveServer.settings.port": 5501,
+		"git.ignoreLimitWarning": true
+	}
+}

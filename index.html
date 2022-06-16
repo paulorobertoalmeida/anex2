@@ -9,184 +9,173 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/stule.css">
     <title>BOOKMARK</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light " id="navbarToggleExternalContent">
-                <div class="container-fluid">
-                    <div class="position-absolute top-20 start-50" id="blue-background-right"> </div>
-                    <img src="./Imagenes copy/logo-bookmark.svg" href="#" />
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto">
-                            <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
-                            <a class="nav-link" href="#">PRICING</a>
-                            <a class="nav-link" href="#">CONTACT</a>
-                            <button class="btn btn-outline-danger me-2" type="submit">LOGIN</button>
-                        </div>
-                    </div>
-            </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light " id="navbarToggleExternalContent">
+        <div class="container pb-5">
+            <a class="navbar-brand ms-4" href="#">
+                <img src="./Imagenes copy/logo-bookmark.svg" href="#" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                    <a class="nav-link" href="#">PRICING</a>
+                    <a class="nav-link" href="#">CONTACT</a>
+                    <button class="btn btn-outline-danger me-2" type="submit">LOGIN</button>
+                </div>
+            </div>
         </div>
-        <div class="conteiner-fluid">
-            <div class="container col-xxl-10 px-4 py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="first-img">
-                        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 pb-5" id="hero-text">
+                <h1>A Simple Bookmark Manager</h1>
+                <p class="text-muted">A clean and simple interface to organize your favorite websites. Open a new
+                    browser tab
+                    and see your sites load
+                    instantly. Try it for free.</p>
+                <div class="col-12 d-flex">
+                    <div class="me-3">
+                        <button type="button" class="btn btn-primary p-3 px-4 shadow" id="btn-primary">Get in on
+                            Chrome</button>
                     </div>
-                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                        <div class="col-10 col-sm-8 col-lg-6">
-                            <img src="./Imagenes copy/illustration-hero.svg" class="d-block mx-lg-auto img-fluid"
-                                alt="My Photo" load="lazy">
-                        </div>
-
-                        <div class="col-lg-6">
-                            <h1 class="display-5 fw-bold lh-1 mb-3">A simple Bookmark Manager</h1>
-                            <p class="lead">A clean and simple interface to organize your favorite websites.Open a new
-                                browser
-                                tab and see your sites load instantly. Try for free</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                <button type="button" class="btn btn-primary" value="Get it on Chrome">Get it on
-                                    Chrome</button>
-                                <button type="button" class="btn btn-secondary" value="Get it on Chrome">Get it on
-                                    Chrome</button>
-                            </div>
-                        </div>
-
+                    <div>
+                        <button type="button" class="btn btn-light p-3 px-4 text-muted shadow" id="btn-primary">Get
+                            it on Firefox</button>
                     </div>
                 </div>
             </div>
-            <section class="container">
-                <div class="row justify-content-center">
-                    <div class="d-flex justify-content-center">
-                        <h3>Features</h3>
-                    </div>
-                    <div class="col-8 ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col justify-content-center">
-                                    <p> Our aim is to make it quick and easy to you to access your </p>
-                                    <p> favourite websites. Your Bookmarks sync between your devices </p>
-                                    <p>so you can access them on the go.</p>
-                                    </p>
-                                    </di>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 pb-5">
-                        <ul class="nav nav-tabs justify-content-center flex-column flex-sm-row text-center" id="myTab">
-                            <li class="nav-item"><a class="nav-link active" href="#bookmarking" data-toggle="tab">Simple
-                                    Bookmarking</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="#searching" data-toggle="tab">Speedy
-                                    Searching</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#sharing" data-toggle="tab">Easy Sharing</a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="bookmarking">
-                                <!-- column 1 image -->
-                                <div class="row align-items-center">
-                                    <div class="col-12 col-md-6 pt-5">
-                                        <div class="position-relative">
-                                            <div class="position-absolute top-20 end-50" id="blue-background-left">
-                                            </div>
-                                            <img class="img-fluid position-relative p-3"
-                                                src="./Imagenes copy/illustration-features-tab-1.svg">
-                                        </div>
-                                    </div>
-                                    <!-- column 2 text -->
-                                    <div class="col-12 col-md-6 pt-5" id="bookmark">
-                                        <h2>Bookmark in one click</h2>
-                                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface
-                                            gives you complete
-                                            control over how
-                                            you
-                                            manage your favoureite sites.</p>
-                                        <button type="button" class="btn btn-primary px-3 shadow-sm"
-                                            id="btn-primary">More info</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="searching">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum expedita consectetur
-                                repellendus at
-                                cupiditate odio quis!
-                                Mollitia eum dolorem odio eaque accusamus laboriosam corrupti voluptatum consequatur
-                                obcaecati expedita.
-                                Quas, nostrum?
-                            </div>
-                            <div class="tab-pane" id="Sharing">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni vitae mollitia, nulla,
-                                deserunt repudiandae
-                                reprehenderit quae nam sint dolore laudantium officia iste rerum reiciendis sapiente,
-                                excepturi blanditiis?
-                                Ratione,
-                                recusandae animi! </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 p-5 text-center">
-                        <h2>Download the extension</h2>
-                        <p class="text-muted">We've got more browsers in the pipeline. Please do let us know if you've
-                            got a favourite
-                            you'd
-                            like us to prioritize.</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-auto col-md-auto">
-                        <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" style="width: 16rem;">
-                            <img src=".//Imagenes copy/logo-chrome.svg" class="img-fluid card-img-top w-50 p-2"
-                                alt="chrome">
-                            <div class="card-body">
-                                <h5 class="card-title">Add to Chrome</h5>
-                                <p class="card-text text-muted pb-3">Minimum version 62</p>
 
-                                <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-auto col-md-auto pt-4">
-                        <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" style="width: 16rem;">
-                            <img src="./Imagenes copy/logo-firefox.svg" class="img-fluid card-img-top w-50 p-2"
-                                alt="firefox">
-                            <div class="card-body">
-                                <h5 class="card-title">Add to Firefox</h5>
-                                <p class="card-text text-muted pb-3">Minimum version 55</p>
-
-                                <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-auto col-md-auto pt-5">
-                        <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" id="card"
-                            style="width: 16rem;">
-                            <img src=".//Imagenes copy/logo-opera.svg" class="img-fluid card-img-top w-50 p-2"
-                                alt="opera">
-                            <div class="card-body">
-                                <h5 class="card-title">Add to Opera</h5>
-                                <p class="card-text text-muted pb-3">Minimum version 46</p>
-
-                                <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-12 col-md-6">
+                <div class="position-relative">
+                    <div class="position-absolute top-20 start-50" id="first-img"> </div>
+                    <img class="img-fluid position-relative" src="./Imagenes copy/illustration-hero.svg">
                 </div>
+            </div>
         </div>
+    </div>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 p-5 text-center">
+                <h2>Features</h2>
+                <p class="text-muted">Our aim is to make it quick and easy for you to access yoour favourite websites.
+                    Your
+                    bookmarks sync between your
+                    devices so you can access them on the go.</p>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-5">
+                <ul class="nav nav-tabs justify-content-center flex-column flex-sm-row text-center" id="myTab">
+                    <li class="nav-item"><a class="nav-link active" href="#bookmarking" data-toggle="tab">Simple
+                            Bookmarking</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#searching" data-toggle="tab">Speedy
+                            Searching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sharing" data-toggle="tab">Easy Sharing</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="bookmarking">
+                        
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6 pt-5">
+                                <div class="position-relative">
+                                    <div class="position-absolute top-20 end-50" id="second-img">
+                                    </div>
+                                    <img class="img-fluid position-relative p-3"
+                                        src="./Imagenes copy/illustration-features-tab-1.svg">
+                                </div>
+                            </div>
+                            
+                            <div class="col-12 col-md-6 pt-5" id="bookmark">
+                                <h2>Bookmark in one click</h2>
+                                <p>Organize your bookmarks however you like. Our simple drag-and-drop interface
+                                    gives you complete
+                                    control over how
+                                    you
+                                    manage your favoureite sites.</p>
+                                <button type="button" class="btn btn-primary px-3 shadow-sm" id="btn-primary">More
+                                    info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="searching">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum expedita consectetur
+                        repellendus at
+                        cupiditate odio quis!
+                        Mollitia eum dolorem odio eaque accusamus laboriosam corrupti voluptatum consequatur
+                        obcaecati expedita.
+                        Quas, nostrum?
+                    </div>
+                    <div class="tab-pane" id="Sharing">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni vitae mollitia, nulla,
+                        deserunt repudiandae
+                        reprehenderit quae nam sint dolore laudantium officia iste rerum reiciendis sapiente,
+                        excepturi blanditiis?
+                        Ratione,
+                        recusandae animi! </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 p-5 text-center">
+                <h2>Download the extension</h2>
+                <p class="text-muted">We've got more browsers in the pipeline. Please do let us know if you've
+                    got a favourite
+                    you'd
+                    like us to prioritize.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-auto col-md-auto">
+                <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" style="width: 16rem;">
+                    <img src=".//Imagenes copy/logo-chrome.svg" class="img-fluid card-img-top w-50 p-2" alt="chrome">
+                    <div class="card-body">
+                        <h5 class="card-title">Add to Chrome</h5>
+                        <p class="card-text text-muted pb-3">Minimum version 62</p>
+
+                        <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-auto col-md-auto pt-4">
+                <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" style="width: 16rem;">
+                    <img src="./Imagenes copy/logo-firefox.svg" class="img-fluid card-img-top w-50 p-2" alt="firefox">
+                    <div class="card-body">
+                        <h5 class="card-title">Add to Firefox</h5>
+                        <p class="card-text text-muted pb-3">Minimum version 55</p>
+
+                        <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-auto col-md-auto pt-5">
+                <div class="card p-3 align-items-center text-center shadow mb-4 mx-auto" id="card"
+                    style="width: 16rem;">
+                    <img src=".//Imagenes copy/logo-opera.svg" class="img-fluid card-img-top w-50 p-2" alt="opera">
+                    <div class="card-body">
+                        <h5 class="card-title">Add to Opera</h5>
+                        <p class="card-text text-muted pb-3">Minimum version 46</p>
+
+                        <a href="#" class="btn btn-primary" id="btn-primary">Add & Install Extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-7">
@@ -197,7 +186,6 @@
                         email
                         us.
                     </p>
-                    <button type="button" class="btn btn-primary"> More Info</button>
                 </div>
             </div>
         </div>
@@ -269,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="col-12 accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -303,15 +291,17 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn mt-3 mb-5 btn-primary"> More Info</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
     </section>
     </div>
     <footer class="bg-primary text-center text-light">
-        <div class="container">
+        <div class="col-12 container">
             <section class="p-1">
                 <div class="row justify-content-center text-center">
                     <div class="col-12 col-md-5">
@@ -330,7 +320,7 @@
                             </div>
                         </div>
                 </form>
-                <div class="col-auto" id="submit-btn">
+                <div class="col-12 col-auto" id="submit-btn">
                     <button type="submit" class="btn btn-secondary" id="btn-secondary" onclick="validate()">
                         Contact us
                     </button>
@@ -340,18 +330,18 @@
         <div class="p-4 mt-5" style="background-color: rgb(43, 43, 44);">
             <div class="row m-3">
                 <div class="col-12 col-md-6" id="footer-links">
-                    <a class="p-3" href="#"><img src="./Imagenes copy/logo-bookmark.svg"></a>
+                    <a class="p-3" href="#"><img class="img-fluid" src="./Imagenes copy/logo-bookmark.svg"></a>
                     <a href="#" class="text-light link-secondary text-decoration-none p-3">FEATURES</a>
                     <a href="#" class="text-light link-secondary text-decoration-none p-3">PRICING</a>
                     <a href="#" class="text-light link-secondary text-decoration-none p-3">CONTACT</a>
                 </div>
                 <div class="col-12 col-md-6">
-                    
+
                     <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                         <path fill="#FFF" fill-rule="evenodd"
                             d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
                     </svg>
-                    
+
                     <a class="p-3" href="#">
                         <svg class="icon" xmlns="http://www.w3.xorg/2000/svg" width="24" height="20">
                             <path fill="#FFF" fill-rule="evenodd"
